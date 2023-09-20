@@ -1,5 +1,7 @@
 import React from 'react'
 
-export default function Page() {
+const Page = () => {
   return <h1>Hello, Next.js!</h1>
 }
+
+export default Page

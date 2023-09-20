@@ -1,13 +1,15 @@
 import React from 'react'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+interface RootLayoutProps {
+    children: React.ReactNode
+}
+
+const RootLayout = ({children}:RootLayoutProps) => {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
   )
 }
+
+export default RootLayout
