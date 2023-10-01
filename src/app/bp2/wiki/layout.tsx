@@ -7,7 +7,10 @@ interface WikiLayoutProps {
 const WikiLayout = ({children}:WikiLayoutProps) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <h1>WIKI</h1>
+        {children}
+      </body>
     </html>
   )
 }

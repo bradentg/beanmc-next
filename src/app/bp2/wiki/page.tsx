@@ -11,18 +11,22 @@ const WikiHomePage = () => {
             title="Characters"
             image="/tubacz_house.png"
             imageAlt="Little Rosey"
+            route="/bp2/wiki/characters"
           />
           <SectionCard 
             title="Places"
             image="/tubacz_house.png"
+            route="/bp2/wiki/places"
           />
           <SectionCard 
             title="Factions"
             image="/tubacz_house.png"
+            route="/bp2/wiki/factions"
           />
           <SectionCard 
             title="Events"
             image="/tubacz_house.png"
+            route="/bp2/wiki/events"
           />
       </div>
     </div>
