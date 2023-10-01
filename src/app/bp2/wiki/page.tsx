@@ -3,18 +3,27 @@ import SectionCard from '../../../components/wiki/section-card'
 
 const WikiHomePage = () => {
   return (
-    <div className="px-200">
+    <div className="container mx-auto my-10">
       <h1>This is the Wiki for the Beanpack 2 Official Server</h1>
-      <div className="columns-2">
-        <SectionCard 
-          title="Characters"
-          image="/rosey1.jpg"
-          imageAlt="Little Rosey"
-        />
-        <SectionCard 
-          title="Places"
-          image=""
-        />
+
+      <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2">
+          <SectionCard 
+            title="Characters"
+            image="/tubacz_house.png"
+            imageAlt="Little Rosey"
+          />
+          <SectionCard 
+            title="Places"
+            image="/tubacz_house.png"
+          />
+          <SectionCard 
+            title="Factions"
+            image="/tubacz_house.png"
+          />
+          <SectionCard 
+            title="Events"
+            image="/tubacz_house.png"
+          />
       </div>
     </div>
   )

@@ -8,7 +8,7 @@ interface SectionCardProps {
 }
 const SectionCard = ({title, image, imageAlt}:SectionCardProps) => {
     return (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg transition hover:scale-102">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg transition hover:scale-102 my-2 sm:mx-2">
             <Image className="w-full" src={image} width={1000} height={1000} alt={imageAlt} />
             <div className="px-6 py-4">
                 <div className="font-bold text-4xl mb-2">{title}</div>
