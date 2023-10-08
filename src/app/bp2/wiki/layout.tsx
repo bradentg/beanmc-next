@@ -1,10 +1,10 @@
 import React from 'react'
 
 interface WikiLayoutProps {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 
-const WikiLayout = ({children}:WikiLayoutProps) => {
+const WikiLayout = ({ children }: WikiLayoutProps): React.JSX.Element => {
   return (
       <>
         {children}

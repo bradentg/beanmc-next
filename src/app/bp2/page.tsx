@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const HomePage = () => {
+const HomePage = (): React.JSX.Element => {
   return (
     <div>
         <h1>This is the homepage for the Beanpack 2 Official Server</h1>

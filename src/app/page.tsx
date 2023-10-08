@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { Albert_Sans } from 'next/font/google'
 
 const akshar = Albert_Sans({
-    weight: ['300'],
-    subsets: ['latin']
+  weight: ['300'],
+  subsets: ['latin']
 })
 
-const Page = () => {
+const Page = (): React.JSX.Element => {
   return (
     // <h1><a href="bp2">Beanpack 2 Official Server</a></h1>
     <>
@@ -15,7 +15,7 @@ const Page = () => {
           <div className="font-bold text-4xl mb-2 bg-slate-100 w-full h-full">Beanpack 2 Official Server</div>
       </a> */}
       <div id="main-page" className="grid h-screen w-screen">
-        <div id="server-button-container" className={akshar.className + " h-screen w-1/3 content-center justify-self-center"}>
+        <div id="server-button-container" className={akshar.className + ' h-screen w-1/3 content-center justify-self-center'}>
           <Link href="bp2">
           <div className="bg-blue-500 rounded-md shadow-xl transition hover:scale-102 py-4 my-2 text-white text-center">
             <span className="font-bold text-2xl"><span className={akshar.className}>Beanpack 2 Official Server</span></span>
