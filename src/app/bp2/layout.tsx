@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from '../../components/nav/bp2-navbar'
 
 interface MainLayoutProps {
     children: React.ReactNode
@@ -6,9 +7,10 @@ interface MainLayoutProps {
 
 const MainLayout = ({children}:MainLayoutProps) => {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <>
+        <NavBar />
+        {children}
+    </>
   )
 }
 
