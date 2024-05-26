@@ -24,10 +24,9 @@ const Page = (): React.JSX.Element => {
               <span className="font-bold text-2xl"><span className={albertSans.className}>Beanpack 2 Wiki</span></span>
             </div>
           </Link>
-          <Link href="bp3">
+          <Link href="bp3/gettingstarted">
             <div className="bg-blue-500 rounded-md shadow-xl transition hover:scale-102 py-4 my-2 text-white text-center">
               <span className="font-bold text-2xl">Beanpack 3: Wizards & Wheels</span>
-              <p>Coming soon</p>
             </div>
           </Link>
         </div>
