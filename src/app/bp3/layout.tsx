@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from '../../components/nav/bp3-navbar'
 
 interface MainLayoutProps {
   children: React.ReactNode
@@ -7,7 +8,12 @@ interface MainLayoutProps {
 const MainLayout = ({ children }: MainLayoutProps): React.JSX.Element => {
   return (
     <>
-        {children}
+      <div id="bp3-layout" className="grid text-white bg-sky-950 w-full h-screen">
+        <NavBar />
+        <div>
+          {children}
+        </div>
+      </div>
     </>
   )
 }
