@@ -19,7 +19,7 @@ const Page = (): React.JSX.Element => {
         <Image priority={true} objectFit='cover' fill={true} className='opacity-70 absolute z-0 blur' src='/tubacz_house.png' alt='Minecraft House' />
         <div id="server-button-container" className='absolute z-10 h-full w-1/3 content-center justify-self-center'>
           <Image width='500' height='100' src="/beanmc_text.png" alt="BeanMC" />
-          <Link href="https://beanmc-wiki-6c65b75bf7ea.herokuapp.com/">
+          <Link href="bp2/wiki">
             <div className='bg-blue-500 rounded-md shadow-xl transition hover:scale-102 py-4 my-2 text-white text-center'>
               <span className="font-bold text-2xl"><span className={albertSans.className}>Beanpack 2 Wiki</span></span>
             </div>

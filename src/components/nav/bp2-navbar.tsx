@@ -12,7 +12,7 @@ const NavBar = (): React.JSX.Element => {
   return (
         <div className="bg-sky-500 w-full text-white text-2xl py-2">
             <div id="nav-title" className="ml-2">
-                <Link href="/bp2">
+                <Link href="/bp2/wiki">
                     <Image
                         src="/blank_bean.png"
                         width={50}
