@@ -10,7 +10,7 @@ const FirstDay = (): React.JSX.Element => {
         <p>
             With the Comforts mod, sleeping can be done on-the-go with a Sleeping Bag. Craft one as soon as possible to make your travels easier.
             Exploration is a huge element of this server, and with that comes plenty of dangers. Death is inevitable.
-            Luckily, the Corail Tombstone mod will preserve your items in a tomb upon death. As you increase your Knowledge of Death, you'll
+            Luckily, the Corail Tombstone mod will preserve your items in a tomb upon death. As you increase your Knowledge of Death, you&apos;ll
             start to unlock greater magical powers from this mod.
         </p>
     </div>
