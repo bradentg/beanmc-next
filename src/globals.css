@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fix TableOfContent scrolling behind navbar */
+.scroll-section::before {
+  content: "";
+  display: block;
+  height: 9rem; /* Adjust this value to match the height of your navbar */
+  margin-top: -9rem; /* This should be the negative value of the height */
+  visibility: hidden;
+  pointer-events: none;
+}

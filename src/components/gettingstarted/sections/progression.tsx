@@ -9,7 +9,7 @@ const Progression = (): React.JSX.Element => {
             and will bring you straight to the relevant advancements page for that mod.
         </p>
         <p>
-            {'Similarly, take a look at the FTB Quests menu for a whole host of questlines pertaining to different mods in the pack. ' +
+            {'Similarly, take a look at the FTB Quests menu (press E and look for the button) for a whole host of questlines pertaining to different mods in the pack. ' +
             'This will help you get started and progress through mods you\'re not familiar with. '}
             <strong>{'Be sure to claim your reward in the FTB Quests menu each time you complete a quest.'}</strong>
         </p>

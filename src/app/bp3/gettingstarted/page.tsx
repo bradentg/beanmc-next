@@ -1,5 +1,6 @@
 import React from 'react'
 import TableOfContents from '../../../components/nav/tableofcontents'
+import ScrollSection from '../../../components/scroll-section'
 import FirstDay from '../../../components/gettingstarted/sections/firstday'
 import Progression from '../../../components/gettingstarted/sections/progression'
 import Building from '../../../components/gettingstarted/sections/building'
@@ -10,7 +11,8 @@ const HomePage = (): React.JSX.Element => {
     { id: 'firstday', title: 'Your First Day' },
     { id: 'progression', title: 'Progression' },
     { id: 'building', title: 'Building' },
-    { id: 'exploration', title: 'Exploration' }
+    { id: 'exploration', title: 'Exploration' },
+    { id: 'transportation', title: 'Transportation' }
   ]
 
   return (
@@ -19,22 +21,29 @@ const HomePage = (): React.JSX.Element => {
         <TableOfContents sections={sections} />
       </div>
       <div className="w-3/5 space-y-10">
-        <section id="intro">
-          <h1 className="text-3xl mb-5">Introduction</h1>
+        <ScrollSection id="intro" title="💡 Introduction">
           This will be the lore introduction for Beanpack 3.
-        </section>
-        <section id="firstday">
-          <h1 className="text-3xl mb-5">Your First Day</h1>
+        </ScrollSection>
+
+        <ScrollSection id="firstday" title="🌄 Your First Day">
           <FirstDay />
-        </section>
-        <section id="progression">
-          <h1 className="text-3xl mb-5">Progression</h1>
+        </ScrollSection>
+
+        <ScrollSection id="progression" title="📈 Progression">
           <Progression />
-        </section>
-        <section id="building">
-          <h1 className="text-3xl mb-5">Building</h1>
+        </ScrollSection>
+
+        <ScrollSection id="building" title="⚒️ Building">
           <Building />
-        </section>
+        </ScrollSection>
+
+        <ScrollSection id="exploration" title="🗺️ Exploration">
+          <Building />
+        </ScrollSection>
+
+        <ScrollSection id="transportation" title="🧹 Transportation">
+          <Building />
+        </ScrollSection>
       </div>
       <div className="w-1/5"></div>
     </div>

@@ -12,7 +12,7 @@ const TableOfContents = ({ sections }: TableOfContentsProps): React.JSX.Element 
 
   return (
     <>
-        <nav className="pl-5">
+        <nav className="pl-5 fixed">
             <h2 className="text-xl weight-5 mb-5">Contents</h2>
             <ul className="space-y-2">
                 {sections.map((section) => (

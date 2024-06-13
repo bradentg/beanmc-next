@@ -7,7 +7,7 @@ import NavBarItem from './navbar-item'
 
 const NavBar = (): React.JSX.Element => {
   return (
-        <div id="nav-bar" className="w-full text-2xl py-2">
+        <div id="nav-bar" className="fixed h-28 w-full bg-sky-950 shadow-xl text-2xl py-2">
           <div id="nav-title" className="ml-2">
               <Image
                   src="/bp3_logo_transparent.png"
