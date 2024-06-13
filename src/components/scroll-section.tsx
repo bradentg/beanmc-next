@@ -7,7 +7,6 @@ interface ScrollSectionProps {
 }
 
 const ScrollSection = ({ id, title, children }: ScrollSectionProps): React.JSX.Element => {
-
   return (
     <section id={id} className="scroll-section">
       <h1 className="text-3xl mb-5">{title}</h1>
