@@ -4,8 +4,8 @@ import ScrollSection from '../../../components/scroll-section'
 import Intro from '../../../components/gettingstarted/sections/intro'
 import FirstDay from '../../../components/gettingstarted/sections/firstday'
 import Progression from '../../../components/gettingstarted/sections/progression'
-import Building from '../../../components/gettingstarted/sections/building'
-import Exploration from '../../../components/gettingstarted/sections/exploration'
+import BuildingGuide from '../../../components/gettingstarted/sections/building-guide'
+import ExplorationGuide from '../../../components/gettingstarted/sections/exploration-guide'
 import Transportation from '../../../components/gettingstarted/sections/transportation'
 import OtherTips from '../../../components/gettingstarted/sections/othertips'
 
@@ -42,11 +42,11 @@ const HomePage = (): React.JSX.Element => {
         </ScrollSection>
 
         <ScrollSection id={sections[3].id} title={sections[3].title}>
-          <Building />
+          <BuildingGuide />
         </ScrollSection>
 
         <ScrollSection id={sections[4].id} title={sections[4].title}>
-          <Exploration />
+          <ExplorationGuide />
         </ScrollSection>
 
         <ScrollSection id={sections[5].id} title={sections[5].title}>

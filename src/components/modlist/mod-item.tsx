@@ -8,7 +8,7 @@ interface ModItemProps {
 
 const ModItem = ({ title, href, children }: ModItemProps): React.JSX.Element => {
   return (
-    <div className="mb-3">
+    <div>
         <h3 className="text-xl text-purple-300 hover:text-purple-400">
             <a href={href}>{title}</a>
         </h3>
