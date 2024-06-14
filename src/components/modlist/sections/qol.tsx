@@ -1,5 +1,4 @@
 import React from 'react'
-import ExtLink from '../../ext-link'
 import ModItem from '../mod-item'
 
 const QOL = (): React.JSX.Element => {
