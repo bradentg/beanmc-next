@@ -19,7 +19,7 @@ const OtherTips = (): React.JSX.Element => {
         </p>
         <p>
           {'For more info on any of the mods mentioned in this page, check out the '}
-          {<ExtLink href="/modlist">Mod List</ExtLink>}
+          {<ExtLink href="/bp3/modlist">Mod List</ExtLink>}
           {' where each mod in the pack includes a link to its CurseForge page (and sometimes a guide).'}
         </p>
     </div>
