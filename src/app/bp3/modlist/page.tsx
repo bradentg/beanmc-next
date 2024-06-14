@@ -7,6 +7,7 @@ import Farming from '../../../components/modlist/sections/farming'
 import BuildingMods from '../../../components/modlist/sections/building-mods'
 import ExplorationMods from '../../../components/modlist/sections/exploration-mods'
 import Storage from '../../../components/modlist/sections/storage'
+import QOL from '../../../components/modlist/sections/qol'
 
 const HomePage = (): React.JSX.Element => {
   const sections = [
@@ -45,6 +46,9 @@ const HomePage = (): React.JSX.Element => {
         </ScrollSection>
         <ScrollSection id={sections[5].id} title={sections[5].title}>
           <Storage />
+        </ScrollSection>
+        <ScrollSection id={sections[6].id} title={sections[6].title}>
+          <QOL />
         </ScrollSection>
       </div>
       <div className="w-1/5"></div>
