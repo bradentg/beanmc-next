@@ -1,6 +1,7 @@
 import React from 'react'
 import TableOfContents from '../../../components/nav/tableofcontents'
 import ScrollSection from '../../../components/scroll-section'
+import Intro from '../../../components/gettingstarted/sections/intro'
 import FirstDay from '../../../components/gettingstarted/sections/firstday'
 import Progression from '../../../components/gettingstarted/sections/progression'
 import Building from '../../../components/gettingstarted/sections/building'
@@ -29,7 +30,7 @@ const HomePage = (): React.JSX.Element => {
           Beanpack 3: Wizards and Wheels
         </div>
         <ScrollSection id={sections[0].id} title={sections[0].title}>
-          This will be the lore introduction for Beanpack 3.
+          <Intro />
         </ScrollSection>
 
         <ScrollSection id={sections[1].id} title={sections[1].title}>
@@ -55,6 +56,9 @@ const HomePage = (): React.JSX.Element => {
         <ScrollSection id={sections[6].id} title={sections[6].title}>
           <OtherTips />
         </ScrollSection>
+
+        <hr />
+        <p><em>Introduction</em> written by Bimblefwip.</p>
       </div>
       <div className="w-1/5"></div>
     </div>
