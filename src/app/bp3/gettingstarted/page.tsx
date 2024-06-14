@@ -4,6 +4,8 @@ import ScrollSection from '../../../components/scroll-section'
 import FirstDay from '../../../components/gettingstarted/sections/firstday'
 import Progression from '../../../components/gettingstarted/sections/progression'
 import Building from '../../../components/gettingstarted/sections/building'
+import Exploration from '../../../components/gettingstarted/sections/exploration'
+import Transportation from '../../../components/gettingstarted/sections/transportation'
 
 const HomePage = (): React.JSX.Element => {
   const sections = [
@@ -38,11 +40,11 @@ const HomePage = (): React.JSX.Element => {
         </ScrollSection>
 
         <ScrollSection id="exploration" title="🗺️ Exploration">
-          <Building />
+          <Exploration />
         </ScrollSection>
 
         <ScrollSection id="transportation" title="🧹 Transportation">
-          <Building />
+          <Transportation />
         </ScrollSection>
       </div>
       <div className="w-1/5"></div>
