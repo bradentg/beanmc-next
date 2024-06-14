@@ -6,7 +6,7 @@ const OtherTips = (): React.JSX.Element => {
     <div className="space-y-4">
         <p>
           {'The economy in Beanpack 3 is handled with '}
-          {<strong>Lightman's Currency Mod</strong>}
+          {<strong>Lightman&apos;s Currency Mod</strong>}
           {'. With this mod you can mint coins of different value from copper, iron, gold, emerald, diamond, and netherite. '}
           {'Use an ATM to exchange big change for small, or vice versa. It also includes a variety of different shop blocks like vending machines and bookshelfs to sell your wares. '}
           {'By changing the settings of these blocks, you have control over who can access them, what\'s for sale, where the revenue goes, and much more. ' }

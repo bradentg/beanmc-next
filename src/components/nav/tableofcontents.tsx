@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 
 interface TableOfContentsProps {
   sections: Array<{ id: string, title: string }>
-  // sections: Map<string, string>
 }
 
 const TableOfContents = ({ sections }: TableOfContentsProps): React.JSX.Element => {
