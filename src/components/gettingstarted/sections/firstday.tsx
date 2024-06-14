@@ -13,6 +13,7 @@ const FirstDay = (): React.JSX.Element => {
             Luckily, the Corail Tombstone mod will preserve your items in a tomb upon death. As you increase your Knowledge of Death, you&apos;ll
             start to unlock greater magical powers from this mod.
         </p>
+        <p>Just pray you don't get a Blood Moon on your first night (see <em>Other Tips</em>).</p>
     </div>
   )
 }
