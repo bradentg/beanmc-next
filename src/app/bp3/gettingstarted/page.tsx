@@ -25,6 +25,9 @@ const HomePage = (): React.JSX.Element => {
         <TableOfContents sections={sections} />
       </div>
       <div className="w-3/5 space-y-10">
+        <div className="text-5xl text-purple-300">
+          Beanpack 3: Wizards and Wheels
+        </div>
         <ScrollSection id={sections[0].id} title={sections[0].title}>
           This will be the lore introduction for Beanpack 3.
         </ScrollSection>

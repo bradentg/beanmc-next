@@ -20,6 +20,12 @@ const OtherTips = (): React.JSX.Element => {
           {'Finally, the Blue Moon gives you Luck and increases loot quality. Perfect time for a dungeon run.'}
         </p>
         <p>
+          {'REDUCING LAG: The '}
+          {<strong>Pipez</strong>}
+          {' mod can be used as a lag-friendly way to move items and fluids over a long distance, '}
+          {'as opposed to massive Create conveyor belts or hordes of Ars creatures. Opt for Pipez when possible.'}
+        </p>
+        <p>
           {'For more info on any of the mods mentioned in this page, check out the '}
           {<ExtLink href="/bp3/modlist">Mod List</ExtLink>}
           {' where each mod in the pack includes a link to its CurseForge page (and sometimes a guide).'}
