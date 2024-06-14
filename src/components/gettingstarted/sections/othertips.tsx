@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Exploration = (): React.JSX.Element => {
+const OtherTips = (): React.JSX.Element => {
   return (
     <div className="space-y-4">
         <p>
@@ -31,4 +31,4 @@ const Exploration = (): React.JSX.Element => {
   )
 }
 
-export default Exploration
+export default OtherTips

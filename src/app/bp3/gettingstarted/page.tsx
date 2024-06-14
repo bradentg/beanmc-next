@@ -6,15 +6,17 @@ import Progression from '../../../components/gettingstarted/sections/progression
 import Building from '../../../components/gettingstarted/sections/building'
 import Exploration from '../../../components/gettingstarted/sections/exploration'
 import Transportation from '../../../components/gettingstarted/sections/transportation'
+import OtherTips from '../../../components/gettingstarted/sections/othertips'
 
 const HomePage = (): React.JSX.Element => {
   const sections = [
-    { id: 'intro', title: 'Introduction' },
-    { id: 'firstday', title: 'Your First Day' },
-    { id: 'progression', title: 'Progression' },
-    { id: 'building', title: 'Building' },
-    { id: 'exploration', title: 'Exploration' },
-    { id: 'transportation', title: 'Transportation' }
+    { id: 'intro', title: '💡 Introduction' },
+    { id: 'firstday', title: '🌄 Your First Day' },
+    { id: 'progression', title: '📈 Progression' },
+    { id: 'building', title: '⚒️ Building' },
+    { id: 'exploration', title: '🗺️ Exploration' },
+    { id: 'transportation', title: '🧹 Transportation' },
+    { id: 'othertips', title: '✍️ Other Tips' }
   ]
 
   return (
@@ -23,28 +25,32 @@ const HomePage = (): React.JSX.Element => {
         <TableOfContents sections={sections} />
       </div>
       <div className="w-3/5 space-y-10">
-        <ScrollSection id="intro" title="💡 Introduction">
+        <ScrollSection id={sections[0].id} title={sections[0].title}>
           This will be the lore introduction for Beanpack 3.
         </ScrollSection>
 
-        <ScrollSection id="firstday" title="🌄 Your First Day">
+        <ScrollSection id={sections[1].id} title={sections[1].title}>
           <FirstDay />
         </ScrollSection>
 
-        <ScrollSection id="progression" title="📈 Progression">
+        <ScrollSection id={sections[2].id} title={sections[2].title}>
           <Progression />
         </ScrollSection>
 
-        <ScrollSection id="building" title="⚒️ Building">
+        <ScrollSection id={sections[3].id} title={sections[3].title}>
           <Building />
         </ScrollSection>
 
-        <ScrollSection id="exploration" title="🗺️ Exploration">
+        <ScrollSection id={sections[4].id} title={sections[4].title}>
           <Exploration />
         </ScrollSection>
 
-        <ScrollSection id="transportation" title="🧹 Transportation">
+        <ScrollSection id={sections[5].id} title={sections[5].title}>
           <Transportation />
+        </ScrollSection>
+
+        <ScrollSection id={sections[6].id} title={sections[6].title}>
+          <OtherTips />
         </ScrollSection>
       </div>
       <div className="w-1/5"></div>
