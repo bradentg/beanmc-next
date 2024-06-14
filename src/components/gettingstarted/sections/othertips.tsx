@@ -15,7 +15,9 @@ const OtherTips = (): React.JSX.Element => {
         <p>
           {'Make sure you\'re prepared for the various moons in the '}
           {<strong>Enhanced Celestials</strong>}
-          {' mod.'}
+          {' mod. During a Blood Moon, you\'ll be unable to sleep and the monster spawn cap will increase. A good time to retreat to your doomsday bunker and watch reruns of Friends. '}
+          {'The Harvest Moon is every farmer\'s dream. Not only will your crops grow faster, but their drop rates will also increase. Go out and harvest! '}
+          {'Finally, the Blue Moon gives you Luck and increases loot quality. Perfect time for a dungeon run.'}
         </p>
         <p>
           {'For more info on any of the mods mentioned in this page, check out the '}
