@@ -9,7 +9,7 @@ import ExplorationGuide from '../../../components/gettingstarted/sections/explor
 import Transportation from '../../../components/gettingstarted/sections/transportation'
 import OtherTips from '../../../components/gettingstarted/sections/othertips'
 
-const HomePage = (): React.JSX.Element => {
+const GettingStartedPage = (): React.JSX.Element => {
   const sections = [
     { id: 'intro', title: '💡 Introduction' },
     { id: 'firstday', title: '🌄 Your First Day' },
@@ -26,9 +26,6 @@ const HomePage = (): React.JSX.Element => {
         <TableOfContents sections={sections} />
       </div>
       <div className="w-3/5 space-y-10">
-        <div className="text-5xl text-purple-300">
-          Beanpack 3: Wizards and Wheels
-        </div>
         <ScrollSection id={sections[0].id} title={sections[0].title}>
           <Intro />
         </ScrollSection>
@@ -65,4 +62,4 @@ const HomePage = (): React.JSX.Element => {
   )
 }
 
-export default HomePage
+export default GettingStartedPage

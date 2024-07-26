@@ -13,7 +13,7 @@ import World from '../../../components/modlist/sections/world'
 import Performance from '../../../components/modlist/sections/performance'
 import Extras from '../../../components/modlist/sections/extras'
 
-const HomePage = (): React.JSX.Element => {
+const ModListPage = (): React.JSX.Element => {
   const sections = [
     { id: 'wizardry', title: '🧙‍♂️ Wizardry' },
     { id: 'wheelery', title: '🎡 Wheelery' },
@@ -74,4 +74,4 @@ const HomePage = (): React.JSX.Element => {
   )
 }
 
-export default HomePage
+export default ModListPage
