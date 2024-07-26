@@ -15,7 +15,7 @@ const FeaturedImage = ({ title, src, author }: FeaturedImageProps): React.JSX.El
         <Image src={src} alt={title} layout="fill" />
       </div>
       <p className="mt-2">by {author}</p>
-    </div>  
+    </div>
   )
 }
 
